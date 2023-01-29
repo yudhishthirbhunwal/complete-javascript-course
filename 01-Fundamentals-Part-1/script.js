@@ -96,3 +96,19 @@ console.log(`String
 with
 multiple
 lines`);
+
+// Conditionals
+age = 13;
+if (age >= 18) {
+  console.log(`${firstName} can drive a car.`);
+} else {
+  console.log(`${firstName} is too young to drive. Wait another ${18 - age} years.`)
+}
+
+let century;
+if (birthYear <= 2000) {
+  century = 20; // Defining variable inside a block will limit its scope to that block only.
+} else {
+  century = 21;
+}
+console.log(century);

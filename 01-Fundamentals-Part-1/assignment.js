@@ -53,3 +53,16 @@ console.log(marksBMI, johnsBMI, markHigherBMI); // Case 1: true, Case 2: false
 population--;
 description = `${country} is in ${continent}, and its ${(population / 2)/1000000} million people speak ${language}`;
 console.log(description);
+
+// LECTURE: Taking Decisions: if / else Statements
+if (population > 33000000) {
+  console.log(`${country}'s population is above average`);
+} else {
+  console.log(`${country}'s population is ${(33000000 - population) / 1000000} million below average`);
+}
+ // Coding Challenge #2
+ if (marksBMI > johnsBMI) {
+  console.log(`Mark's (${Math.round(marksBMI)}) BMI is higher than John's (${Math.round(johnsBMI)})!`);
+} else {
+  console.log(`John's (${Math.round(johnsBMI)}) BMI is higher than Mark's (${Math.round(marksBMI)})!`);
+}
