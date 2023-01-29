@@ -58,3 +58,29 @@ job = "React Developer";
 
 lastName = "Bhunwal"; // Creates a property on golobal object (you don't want this).
 console.log(lastName);
+
+// Operators
+const now = 2023;
+const ageJohnDoe = now - 1990;
+const ageJaneDoe = now - 1994;
+console.log(ageJohnDoe, ageJaneDoe);
+
+console.log(ageJohnDoe * 2, ageJaneDoe / 10, 2 ** 2);
+
+const greeting = "Welcome!";
+console.log(firstName + ', ' + greeting); // String concatenation.
+
+// Assignment Operators
+let x = 10 + 5; // 15
+x += 10; // 25
+x *= 2; // 50
+x++; // 51
+x--; // 50
+x--; // 49
+console.log(x);
+
+// Comparison Operators
+console.log(ageJohnDoe > ageJaneDoe); // true
+console.log(ageJaneDoe >= 18); // true
+
+// Check Operator Precedence (in MDN Docs)
