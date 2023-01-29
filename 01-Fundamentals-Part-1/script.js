@@ -84,3 +84,15 @@ console.log(ageJohnDoe > ageJaneDoe); // true
 console.log(ageJaneDoe >= 18); // true
 
 // Check Operator Precedence (in MDN Docs)
+
+// Template Literals
+console.log("I'm " + firstName + ", a " + job1 + "!"); // String Concatenation
+console.log(`I'm ${firstName}, a ${job2}!`); // Template Literal
+
+console.log("String with \n\
+multiple \n\
+lines");
+console.log(`String
+with
+multiple
+lines`);
